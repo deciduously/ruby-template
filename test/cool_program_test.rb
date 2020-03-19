@@ -3,10 +3,10 @@
 require 'minitest/autorun'
 require_relative '../src/cool_program'
 
-# Test Rubybot capability
+# Test program coolness
 class CoolProgramTest < Minitest::Test
-  def test_cool_program_coolness
+  def test_coolness_off_the_charts
     # skip
-    assert_equal CoolProgram.new.coolness, 100
+    assert_equal CoolProgram.new.coolness, 11
   end
 end
