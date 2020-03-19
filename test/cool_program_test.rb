@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'minitest/autorun'
-require_relative '../src/cool_program'
+require_relative '../lib/cool_program'
 
 # Test program coolness
 class CoolProgramTest < Minitest::Test
