@@ -1,9 +1,11 @@
 # frozen_string_literal: true
 
-# The robot moving around the room
+# The coolest program
 class CoolProgram
   attr_reader :coolness
   def initialize
-    @coolness = 100
+    @coolness = 11
   end
 end
+
+puts "Coolness: #{CoolProgram.new.coolness}/10"
